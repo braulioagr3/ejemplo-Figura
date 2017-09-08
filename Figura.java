@@ -1,12 +1,13 @@
 /**
- * Esta es una Super clase para la figura
+ * Esta es una Super clase para la Figura
  * 
  * @author (Braulio A. García Rivera) 
- * @version (V 0.1)
+ * @version (08/09/2017)
  */
 public class Figura
 {
     protected float area;
+    protected float perimetro;
     /**
      * Constructor de la clase Figura
      */
@@ -17,9 +18,16 @@ public class Figura
     /**
      * Calcula el area de la figura
      */
-    public void calculaArea()
+    public void calcularArea()
     {
         System.out.println("No se como calcular el area");
+    }
+    /**
+     * Calcula el perimetro de la figura
+     */
+    public void calcularPerimetro()
+    {
+        System.out.println("No se como calcular el perimetro");
     }
     /**
      * Imprime el area de la Figura
@@ -27,5 +35,12 @@ public class Figura
     public void imprimeArea()
     {
         System.out.println("El area de la figura es: "+area);
+    }
+    /**
+     * Imprime el perimetro de la Figura
+     */
+    public void imprimePerimetro()
+    {
+        System.out.println("El perimetro de la figura es: "+perimetro);
     }
 }
